@@ -1,0 +1,21 @@
+//Este archivo es creado desde GitHub
+//Usé c# para hacer el script
+
+using System;
+
+namespace keys
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x;
+            Console.WriteLine($"Indique la cantidad de numeros: ");
+            x = Int32.Parse(Console.ReadLine());
+            for (int  i = 1;  i <= x;  i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+        }
+    }
+}
